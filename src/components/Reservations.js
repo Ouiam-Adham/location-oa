@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import { acceptReservation } from '../actionjs/actionsLocation';
+import { acceptReservation } from '../action/actionsLocation';
 import { Link } from 'react-router-dom';
 
 export default function Reservations() {

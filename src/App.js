@@ -9,7 +9,7 @@ import Map from './components/Map';
 import Reservations from './components/Reservations';
 import AdminLocations from './components/AdminLocations';
 import { useDispatch } from 'react-redux';
-import { authCancel } from './actionjs/actionsLocation';
+import { authCancel } from './action/actionsLocation';
 import { useLocation } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { useEffect } from 'react';

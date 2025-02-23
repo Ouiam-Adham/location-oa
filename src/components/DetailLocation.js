@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { addReservation } from '../actionjs/actionsLocation';
+import { addReservation } from '../action/actionsLocation';
 import { useDispatch, useSelector } from 'react-redux';
 
 export default function DetailLocation() {

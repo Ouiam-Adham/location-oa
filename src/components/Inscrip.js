@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { addUser } from '../actionjs/actionsLocation';
+import { addUser } from '../action/actionsLocation';
 import { useDispatch } from 'react-redux';
 
 export default function Inscrip() {

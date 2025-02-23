@@ -1,5 +1,5 @@
 import React from 'react'
-import { deleteLocation, blockLocation, unblockLocation } from '../actionjs/actionsLocation'
+import { deleteLocation, blockLocation, unblockLocation } from '../action/actionsLocation'
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 

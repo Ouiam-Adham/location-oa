@@ -1,6 +1,6 @@
 import React, { useState , useEffect} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { authRequest } from '../actionjs/actionsLocation';
+import { authRequest } from '../action/actionsLocation';
 import { Link, useNavigate } from 'react-router-dom';
 
 export default function Auth() {
