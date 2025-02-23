@@ -37,7 +37,7 @@ export default function Reservations() {
                                         </Link>
                                     </p>
                                     <p>
-                                        {reservations.accepted?<button
+                                        {reserv.accepted?<button
                                             className="btn btn-success w-100"
                                             onClick={() => {
                                                 dispatch(acceptReservation(reserv.id));

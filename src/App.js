@@ -38,7 +38,7 @@ function App() {
       <nav className="navbar navbar-expand-lg bg-primary text-white p-3 shadow">
         <div className="container-fluid">
           <h1 className="navbar-brand mb-0 h1 text-light font-monospace p-2">  <i className="bi bi-house-door"></i> Location App</h1>
-          {(location.pathname!=='/' && location.pathname!=='/inscrip')&& <div className='text-uppercase'>{userName }&nbsp; <button className='btn btn-dark' onClick={()=>{   console.log("Logout button clicked!");
+          {(location.pathname!=='/' && location.pathname!=='/inscrip')&& <div className='text-uppercase'>{userName }&nbsp; <button className='btn btn-dark' onClick={()=>{   ;
 dispatch(authCancel());}}>Se deconnecter</button></div>
 }
         </div>
