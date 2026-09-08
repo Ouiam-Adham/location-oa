@@ -1,6 +1,6 @@
-un site web de location où les utilisateurs peuvent s'inscrire, se connecter et proposer des services de 
-location. Le site affichera les locations disponibles sur Google Maps et permettra aux utilisateurs de réserver 
-des services. Un administrateur peut de gérer les locations et voir les revenus.
+Application web de location immobilière
+
+Développement d’un site web de location permettant aux utilisateurs de s’inscrire, se connecter, publier et gérer leurs annonces immobilières, ainsi que de réserver des appartements disponibles. Les biens sont affichés sur une carte interactive avec Leaflet, permettant de visualiser leur localisation. Les propriétaires peuvent gérer leurs annonces, accepter ou refuser les demandes de réservation, et bloquer ou débloquer les réservations. Un tableau de bord permet également de consulter les statistiques liées aux réservations et aux revenus.
 
 
 Technologies et Dépendances
